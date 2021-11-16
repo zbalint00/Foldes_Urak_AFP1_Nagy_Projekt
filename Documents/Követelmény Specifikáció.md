@@ -107,3 +107,9 @@ az adatkezelés biztonságának garantálására hozott technikai és szervezés
 ## 7.) Irányított és szabad szöveges riportok
 
 ## 8.) Fogalomszótár
+- **Reszponzív felület** - Mobilon, Tableten, PC-n igazodik a
+képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül
+üzemelhet.
+- **MNIST database (Modified National Institute of Standards and Technology database)** - egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén.
+- **Adatbázis** - Az adatbázis azonos minőségű (jellemzőjű), többnyire strukturált adatok összessége, amelyet egy azok tárolására, lekérdezésére és szerkesztésére alkalmas szoftvereszköz kezel.
+
