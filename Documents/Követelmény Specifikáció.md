@@ -105,6 +105,11 @@ az adatkezelés biztonságának garantálására hozott technikai és szervezés
 ## 6.) Követelménylista
 
 ## 7.) Irányított és szabad szöveges riportok
+- **Kivitelező:** Kérem mondja el milyen programra lenne szüksége!
+ - **Megrendelő:** Mostanában azon gondolkozatam, hogy nyitni készíteni szeretnék egy olyan saját weboldalt, ahol a felhasználónak 20 véletlenszerű ember által írt számokat kéne helyesen kitalálniük.  
+ - **Kivitelező:** Hogyan gondolta ezt megvalósítani?
+ - **Megrendelő:** Úgy, hogy ezeket az emberek által írt számokat mondjuk egy adatbázisban tárolnám ahonnan véletlenszerűen lenne kiválasztva 20 kép amiken ugye a számok szerepelnének. Ezen kívűl felhasználóknak biztosítanék egy rangsort is ahol csak az e-mail címüket kellene megadniuk és a rangsor úgy állna fel, hogy mennyit talált el helyesen. 
+ - **Kivitelező:** Rendben, a csapatom és én megpróbáljuk a legjobb tudásunk szerint megcsinálni az ön által megálmodott weboldalt!
 
 ## 8.) Fogalomszótár
 - **Reszponzív felület** - Mobilon, Tableten, PC-n igazodik a
