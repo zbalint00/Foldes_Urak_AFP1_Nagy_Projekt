@@ -1,6 +1,7 @@
 # Követelmény Specifikáció
 
 ## 1.) Jelenlegi helyzet leírása
+Az MNIST adatbázis egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén. A NIST eredeti adatkészleteiből származó minták „újrakeverésével” jött létre. A NIST fekete-fehér képeit normalizálták, hogy beleférjenek egy 28x28 pixeles határolódobozba, és élsimításra kerültek, ami szürkeárnyalatos szinteket vezetett be.
 
 ## 2.) Vágyálom rendszer leírása
 
