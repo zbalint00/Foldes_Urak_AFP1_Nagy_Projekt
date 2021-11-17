@@ -3,6 +3,12 @@
 ## 1.) Jelenlegi helyzet leírása
 
 ## 2.) Vágyálom rendszer leírása
+- Egy olyan webalkalmazás fejlesztése a cél, melyben egy személynek fel kell ismernie milyen számot lát egy képen
+- Olyan rendszert hozunk létre, melyet teljesítve a felhasználó pontokat gyűjthet eltalálta-e a megfelelő számot
+- Regisztráció/bejelentkezés szükséges lesz a használatához
+- A "teszt" végén a felhasználó kap egy pontszámot az alapján, hogy hányat talált el jól
+- A beírandó számot nem billentyűzettel, hanem egy képernyőn lévő numpaddal kell bevinni
+- Reszponzív design
 
 ## 3.) A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 
