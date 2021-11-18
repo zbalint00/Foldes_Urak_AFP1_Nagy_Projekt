@@ -107,6 +107,21 @@ az adatkezelés biztonságának garantálására hozott technikai és szervezés
 
 ## 4.) Jelenlegi üzleti folyamatok modellje
 
+Üzleti szereplők: 	
+-	felhasználó
+
+Üzleti munkatárs: 	
+-	karbantartó
+
+Üzleti entitások: 		
+-	email cím
+-	Leadboard
+
+Üzleti folyamatok: 	
+-	Új felhasználó felvétele a rendszerbe: A felhasználó email címe megadásával és egy saját felhasználói név megadásával regisztrálni tud az oldalra aminek az adatait titkosítva egy adatbázisban menti el a rendszer
+-	Program menete: A felhasználó belépés után a Start gombra kattintva 20 random képet kap sorban egymás után amikről elkell dönteni-e, hogy 1-től 9-ig melyik számjegyet ábrázolja.
+-	Értékelés: Minden egyes jó válasz adásért pontot kap a felhasználó, legvégén pedig megtudja nézni, hogy a ranglistán hanyadik helyen áll.
+
 ## 5.) Igényelt üzleti folyamatok modellje:
 
 ## 6.) Követelménylista
