@@ -1,5 +1,13 @@
 # Funkcionális Specifikáció 
 ## 1.) Áttekintés
+- Az oldal egy START gombra kattintva számokat jelenít meg, amit a felhasználónak az oldalon megjelenő számbillentyűkre kattintva időre bekell ütnie.
+- Az aktuális kép alatt látja, hogy hány kép van még hátra.
+- 20 random kép megjelenítése után a felhasználó megkapja az eredményét és az átlag képenkénti sebességét, eredményét elmentheti, vagy újrakezdheti.
+- Ha szeretné hogy az eredménye megjelenjen a ranksoron ahoz regisztrálnia kell, kérünk tőle egy e-mailt, felhasználónevet és jelszót.
+- Hogyha a felhasználó bevan jelentkezve eredményének elmentése autómatikusan megtörténik.
+- A felhasználó próbálkozásait, e-mail-jét, felhasználónevét és jelszavá adatbázisba biztonságosan mentjük el.
+- A felhasználó kérheti az adatai és profilja eltávolítását, megtekintését a PROFIL oldalján.
+- A ranksoron a felhasználóneve mellett megjelenik, hogy hány számot talált el és az átlagidő. 
 ## 2.) Jelenlegi helyzet
 ## 3.) Követelménylista
 ## 4.) Követelmények
