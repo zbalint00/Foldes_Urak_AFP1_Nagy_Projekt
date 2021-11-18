@@ -10,6 +10,13 @@
 - A ranksoron a felhasználóneve mellett megjelenik, hogy hány számot talált el és az átlagidő. 
 ## 2.) Jelenlegi helyzet
 ## 3.) Követelménylista
+  1. Reszponzív dizájn
+  2. Felhasználói fiók létrehozása
+  3. Felhasználói adatok biztonsága
+  4. Felhasználói adatok törölhetősége
+  5. Azonnal frissülő ranksor
+  6. Számbillentyűzet létrehozása
+  7. Adatok adatbázisba rendezése
 ## 4.) Követelmények
 ## 5.) Jelenlegi üzleti folyamatok modellje
 Üzleti szereplők: 	
