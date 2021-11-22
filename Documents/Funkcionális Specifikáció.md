@@ -35,6 +35,12 @@
 -	Értékelés: Minden egyes jó válasz adásért pontot kap a felhasználó, legvégén pedig megtudja nézni, hogy a ranglistán hanyadik helyen áll.
 
 ## 6.) Igényelt üzleti folyamatok
+1. A felhasználó regisztrációs lehetősége.
+2. A "Start" gombra kattintva elkezdődik a program.
+3. 20 random képről eldönteni, hogy melyik számjegyet ábrázolja, egy számbillenytűzet segítségével.
+4. Az eredményt pont, és átlagolt idő szerint rangsorba helyezi.
+5. Ha a felhasználó regisztrált be kell jelentkeznie, hogy a rangsorba be kerülhessen. 
+
 ## 7.) Használati esetek
 ## 8.) Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 9.) Képernyőtervek
