@@ -4,9 +4,34 @@
 
 ## 2. Projektterv
 ### 2.1 Projektszerepkörök, felelősségek
+- Front-End Developer (HTML, CSS):
+- Back-End Developer (PHP):
+- Database Manager (SQL):
 ### 2.2 Projektmunkások és felelősségeik
+- Design elkészítése:
+- Adatbázis létrehozása:
+- Belépés-Regisztráció:
+- Ranksor létrehozása:
+- Profil oldal elkészítése:
+- MNIST logika elkészítése:
+- Számbillentyűzet implementálása:
 ### 2.3 Közös feladatok
+- Követelmény specifikáció megírása
+- Funkcionális specifikáció megírása
+- Rendszerterv elkészítése
 ### 2.4 Mérföldkövek
+1. Adatbázis 
+ - Kép és hozzátartozó értékek feltöltése és összekapcsolása
+ - Felhasználói adatok tábla létrehozása
+ - Felhasználó probálkozásai tábla létrehozása
+2. Weboldal
+ - Belépés/Regisztráció
+ - MNIST implementálása
+ - Ranksor
+ - Profil oldal
+3. Design
+ - Reszponzív oldal létrehozása
+ - Számbillentyűzet hozzáadása
 
 ## 3. Üzleti folyamatok modellje
 ### 3.1 Üzleti szereplők
