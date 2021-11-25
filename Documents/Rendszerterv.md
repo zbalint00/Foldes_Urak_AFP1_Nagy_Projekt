@@ -1,6 +1,7 @@
 # Rendszerterv
 
 ## 1. A rendszer célja
+A rendszer célja, hogy a felhasználó egy tesztet tudjon teljesíteni melyből kiderül, hogy hány kézzel írott számot tud felismerni egy adatbázisból. A felhasználó a teszt végén értesítést kap eredményéről. Ahhoz, hogy a teszt pontos legyen, és a felhasználót ne akadályozza a felület, egy egyszerű, gyorsan értelmezhető letisztult felhasználói felületet kap az oldal. A gyors működés miatt a rendszer fejlesztése nagyrészt PHP-ben fog alapulni.
 
 ## 2. Projektterv
 ### 2.1 Projektszerepkörök, felelősségek
