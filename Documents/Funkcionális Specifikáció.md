@@ -9,6 +9,7 @@
 - A felhasználó kérheti az adatai és profilja eltávolítását, megtekintését a PROFIL oldalján.
 - A ranksoron a felhasználóneve mellett megjelenik, hogy hány számot talált el és az átlagidő. 
 ## 2.) Jelenlegi helyzet
+A cél egy olyan dinamikus weboldal készítése, melyen a felhasználónak rákell böknie, hogy mely számot látja kiírva a képernyőn. Ez alapján az oldal pontozza a teljesítményét, hányat sikerült eltalálnia az illetőnek, adatbázisba elmenti, a teszt végén kiírja azt. A számok egy "adatbázisból" lesznek kivágva, mindegyikük kézzel írt. A pontozás a teljesített idő alapján is szabályozva lesz.
 ## 3.) Követelménylista
   1. Reszponzív dizájn
   2. Felhasználói fiók létrehozása
