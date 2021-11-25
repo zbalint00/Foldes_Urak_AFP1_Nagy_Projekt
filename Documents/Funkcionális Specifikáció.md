@@ -55,6 +55,7 @@ A cél egy olyan dinamikus weboldal készítése, melyen a felhasználónak rák
 ## 8.) Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 9.) Képernyőtervek
 ## 10.) Forgatókönyv
+Első sorban, ha egy új felhasználó látogat el a weboldalra regisztrálnia kell annak érdekében, hogy bármit is tudjon csinálni a felületen. A sikeres regisztráció után az előjövő bejelntkezési ablakban be bírnak jelentkezni amiután egyből a főoldalon lesznek. A fő oldalon a felhasználónak rákell böknie, hogy mely számot látja kiírva a képernyőn. Ez alapján az oldal pontozza a teljesítményét, hányat sikerült eltalálnia az illetőnek, adatbázisba elmenti, a teszt végén kiírja azt. A számok egy "adatbázisból" lesznek kivágva, mindegyikük kézzel írt. A pontozás a teljesített idő alapján is szabályozva lesz.
 ## 11.) Funkció-követelmény megfeleltetés
 ### Funkciókövetelmények megfeleltetés:
 - **Felhasználói fiókok kezelése:** Bejelentkezés, felhasználói adatok módosítása, rangsor felállítása
