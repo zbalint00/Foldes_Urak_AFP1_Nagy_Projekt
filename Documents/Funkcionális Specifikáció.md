@@ -19,6 +19,15 @@ A cél egy olyan dinamikus weboldal készítése, melyen a felhasználónak rák
   6. Számbillentyűzet létrehozása
   7. Adatok adatbázisba rendezése
 ## 4.) Követelmények
+
+### Funkcionális követelmények:
+- **Következő Tesztre való lépés:** Ha a felhasználó lenyom egy gombot, egyből jön a következő "feladat"
+- **Kitöltés:** A tesztre válasz adási lehetőség.
+- **Szám Kiválasztása:** Megadott kép szerinti szám (numpadon) kiválasztása.
+### Nem Funkcionális követelmények:
+- **Látványos** és egyedülálló dizájn
+- **Egyszerű**, gyorsan értelmezhető, letisztult felhasználói felület
+
 ## 5.) Jelenlegi üzleti folyamatok modellje
 Üzleti szereplők: 	
 -	felhasználó
