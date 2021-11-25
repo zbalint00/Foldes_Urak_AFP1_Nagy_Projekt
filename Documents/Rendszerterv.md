@@ -5,17 +5,17 @@ A rendszer célja, hogy a felhasználó egy tesztet tudjon teljesíteni melyből
 
 ## 2. Projektterv
 ### 2.1 Projektszerepkörök, felelősségek
-- Front-End Developer (HTML, CSS):
-- Back-End Developer (PHP):
-- Database Manager (SQL):
+- Front-End Developer (HTML, CSS): Molnár Bálint
+- Back-End Developer (PHP): Makai Balázs, Linksch Balázs, Galvács István
+- Database Manager (SQL): Zombori Bálint
 ### 2.2 Projektmunkások és felelősségeik
-- Design elkészítése:
-- Adatbázis létrehozása:
-- Belépés-Regisztráció:
-- Ranksor létrehozása:
-- Profil oldal elkészítése:
-- MNIST logika elkészítése:
-- Számbillentyűzet implementálása:
+- Design elkészítése: Molnár Bálint
+- Adatbázis létrehozása: Zombori Bálint
+- Belépés-Regisztráció: Linksch Balázs
+- Ranksor létrehozása: Galvács István
+- Profil oldal elkészítése: Linksch Balázs
+- MNIST logika elkészítése: Makai Balázs
+- Számbillentyűzet implementálása: Galvács István
 ### 2.3 Közös feladatok
 - Követelmény specifikáció megírása
 - Funkcionális specifikáció megírása
