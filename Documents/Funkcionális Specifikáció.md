@@ -56,6 +56,15 @@ A cél egy olyan dinamikus weboldal készítése, melyen a felhasználónak rák
 ## 9.) Képernyőtervek
 ## 10.) Forgatókönyv
 ## 11.) Funkció-követelmény megfeleltetés
+### Funkciókövetelmények megfeleltetés:
+- **Felhasználói fiókok kezelése:** Bejelentkezés, felhasználói adatok módosítása, rangsor felállítása
+- **Platformfüggetlen működés:** Szabványos, az iparágban régóta bevált, operációs rendszertől független technológiák használata: Php, Apache HTTP szerver, MySQL.
+- **Bővíthetőség:** A kezelt adatok mennyiségének, valamint a felhasználók számának bővíthetősége és utólag újabb funkciók hozzáadásának lehetőségének biztosítása.
+
+### Nem Funkció-követelmény megfeleltetés:
+- Egyszerű, pontosan értelmezhető, letisztult felhasználóbarát felület
+- Egyszerűen használható kezelőfelület
+- Felhasználók adatainak a biztonága
 ## 12.) Fogalomszótár
 - **Reszponzív felület** - Mobilon, Tableten, PC-n igazodik a
 képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül
