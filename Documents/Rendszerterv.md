@@ -36,11 +36,19 @@ A rendszer célja, hogy a felhasználó egy tesztet tudjon teljesíteni melyből
 
 ## 3. Üzleti folyamatok modellje
 ### 3.1 Üzleti szereplők
+A rendszert regisztrálás nélkül is lehet használni. Ekkor a látogató csak a kezdőlapot tudja elérni és az eredményei nem fognak be kerülni a rangosrba. Regisztráció és sikeres bejelentkezés után a felhasználó eredményei be fognak kerülni a rangsorba és az adatbázisban is el lesznek tárolva. Regisztrált üzleti szereplők a felhasználó, és az adminisztrátor.
 ### 3.2 Üzleti folyamatok
+Bejelentkezés mindenki számára ugyanolyan lefutású: A ’Belépés’ menüpontra kattintva megjelenik a ’Felhasználónév’ és ’Jelszó’ beviteli űrlap. A mezők kitöltése után a ’Belépés’ gombra kattint a felhasználó. Ha az azonosítás sikeres, akkor a felhasználó sikeresen belépett. Ha nem sikerül az azonosítás, hibaüzenet jelenik meg.
 #### Üzleti folyamatok adminisztrátorok számára:
-#### Üzleti folyamatok bérlők számára:
+- Adatbázishoz való hozzáférés
+- Rangsor szerkesztése
+- A weboldal kinézetének szerkesztése
+#### Üzleti folyamatok felhasználók számára:
+- Rangsor megtekintése: A felhasználó meg tudja nézni a rangsort, ahol láthatja, hogy mások és a felhasználó milyen eredményt ért el és hogy azok alapján hanyadik a rangsorban.
+- Felhasználói profil: A felhasználó meg tudja nézni saját profilját. Itt a felhasználó szerkesztheti a személyes adatait és láthatja, milyen eredményeket ért el eddig.
 ### 3.3 Üzleti entitások
-
+- Felhasználó
+- Eredmény
 ## 4. Követelmények
 
 ### 4.1 Funkcionális követelmények
