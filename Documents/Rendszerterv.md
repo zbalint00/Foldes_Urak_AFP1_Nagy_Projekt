@@ -148,5 +148,7 @@ az adatkezelés biztonságának garantálására hozott technikai és szervezés
 (4) Annak megállapítása során, hogy a hozzájárulás önkéntes-e, a lehető legnagyobb mértékben figyelembe kell venni azt a tényt, egyebek mellett, hogy a szerződés teljesítésének - beleértve a szolgáltatások nyújtását is - feltételéül szabták-e az olyan személyes adatok kezeléséhez való hozzájárulást, amelyek nem szükségesek a szerződés teljesítéséhez.
 
 ## 5. Funkcionális terv
+- **Felhasználó:** Képes lesz a teszt kitöltésére, majd a kitöltés végén a teszt eredményét megtekinteni.
+
 ### 5.1 Rendszerszereplők
 ### 5.2 Rendszerhasználati esetek és lefutásaik
