@@ -29,7 +29,7 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="beformaz.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="login">
