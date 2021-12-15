@@ -2,7 +2,6 @@
     // MNIST LOGIKA (Makai Balázs) 
     require 'connection.php';
     session_start();
-    $_SESSION['elozoJoMegoldasok'];
     $_SESSION['imageSrc'] = "\Project\images\num_1977_[3].png";
 
     // Ha nincs bejelentkezve
