@@ -1,60 +1,73 @@
 <?php
     // MNIST LOGIKA (Makai Balázs) 
+    require 'connection.php';
     session_start();
     $_SESSION['elozoJoMegoldasok'];
     $_SESSION['imageSrc'] = "\Project\images\num_1977_[3].png";
 
     // Ha nincs bejelentkezve
-        //header("Location: /Project/login.php")
+    if($_SESSION["userLoggedIn"] != true) {
+        header('Location: login.php');
+    } 
 
+    //Dobja fel adatbázisba az eredményt
     if($_SESSION['kerdesekSzama'] <= 0) {
         $_SESSION['elozoJoMegoldasok'] = $_SESSION['jóMegoldások'];
 
-        //Dobja fel adatbázisba az eredményt
+        $db = new dbObj();
+        $connection = $db->getConnection();
 
-        header("Location: /Project/index.php");
+        $query = "INSERT INTO rangsor SET felhasznalonev = ' ".$_SESSION["user"]." ', pontszam =' ".$_SESSION["jóMegoldások"]." ' ";
+
+        if(mysqli_query($connection, $query)){
+            $response = array(
+                'status' => 1,
+                'status_message' => 'score uploaded successfully'
+            );
+        }else{
+            $response = array(
+                'status' => 0,
+                'status_message' => 'score upload failed'
+            );
+        }
+        header("Location: index.php");
     }
 
+    // Ha beadtunk egy számot..
     if(!empty($_GET["number"])){
         $ertek = intval($_GET["number"]);
+        // És a szám helyes..
         if($ertek == $_SESSION['helyesErtek']) {
             $_SESSION["jóMegoldások"] = $_SESSION["jóMegoldások"] + 1;
             $_SESSION["kerdesekSzama"] = $_SESSION["kerdesekSzama"] - 1;
-            header("Location: /Project/mnist.php");
+            header("Location: mnist.php");
         }
+        // És a szám helytelen..
         else {
             $_SESSION["kerdesekSzama"] = $_SESSION["kerdesekSzama"] - 1;
-            header("Location: /Project/mnist.php");
+            header("Location: mnist.php");
         }
     }
 
-    function getRandomImage() {                     // Egyenlőre csak egy képet tud megmutatni
+    function getRandomImage() {   
+        //Generálunk egy random számot                  
         $index = rand(0, 2000);
 
-        $fileNameStart = "num_".$index."_"; 
-        $path = '/Project/images/';
-        /*$files = glob(".".$path."*.{png}");       // Valamiért semmiképpen sem működik a glob()
+        //Készítünk egy tömböt
+        $path = 'Resources/Images';
+        $files = scandir($path);
 
-
-        if(count($files) > 0) {
-            foreach($files as $file) {
-                $info = pathinfo($file);
-                $filename = $info["filename"];
-                $temp = explode("[", $filename);
-                $_SESSION['helyesErtek'] = $temp[1].substr(0, -1); 
-
-                return $filename;
-            }
-        } else { */
-            $_SESSION['helyesErtek'] = 9;
-            return "num_418_[9]";
-        // } 
+        $randomImage = $files[$index];
+        $_SESSION["helyesErtek"] = substr($randomImage, -6, 1);
+        print($randomImage);
 
     }
 ?>
 
 <html>
     <head>
+    
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
         <link rel="stylesheet" href="./Resources/button.css">
         <script>
 
@@ -75,11 +88,17 @@
         <title>Mnist</title>
     </head>
     <body>
-
+    <nav class="navtop">
+			<div>
+                <h1>Felhasználó</h1>
+				<a href="profile.php"><i class="fas fa-user-circle"></i>Profil</a>
+				<a href="mnist.php"><i class="fas fa-user-circle"></i>MNIST</a>
+				<a href="ki.php"><i class="fas fa-sign-out-alt"></i>Kijelentkezés</a>
+			</div>
+		</nav>
         <!-- MNIST LOGIKA (Makai Balázs) -->
 
-            <!-- <img src="\Project\images\num_1977_[3].png"> -->
-            <img src="\Project\images\<?php echo getRandomImage(); ?>.png">
+            <img src="Resources\Images\<?php echo getRandomImage(); ?>">
 
             <p> <?php echo $_SESSION["jóMegoldások"] ?> </p>
             <p> <?php echo $_SESSION["kerdesekSzama"] ?> </p>
@@ -87,7 +106,7 @@
 
             <form>
                 <label for  = "number">Number:</label>
-                <input type = "number" id ="tbInput" name ="number" min="0" max = "9" step = "1">
+                <input type = "number" id ="tbInput" name ="number" min="0" max = "9" step = "1" required>
                 <input type = "submit" value="Submit">
             </form>
 
