@@ -1,9 +1,9 @@
 <?php
     require 'database.php';
-	mysqli_set_charset($kapcsolat,"utf8");
+	mysqli_set_charset($connection,"utf8");
     if (isset($_POST["belep"])) 
 	{
-		$result = mysqli_query($kapcsolat, "select * from felhasznalo");
+		$result = mysqli_query($connection, "select * from users");
 		while ($sor = $result->fetch_assoc()) 
 		{
 			$nev = $sor["fnev"];
@@ -17,13 +17,13 @@
 				$_SESSION["pw"]=$_POST["jelsz"];
 				$_SESSION["email"]=$sor["email"];
 				$_SESSION["userid"] = $sor["id"];
-				header("location:menu.php");
+				header("location:index.php");
 			}
 		}
     }
     if(isset($_POST["regi"]))
     {
-        header("location:regi.php");
+        header("location:regisztral.php");
     }
 ?>
 
@@ -36,7 +36,7 @@
 			<h1>Földes Urak</h1>
 			<h1>Bejelentkezés</h1>
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-			<form action="belep.php" method="post">
+			<form action="login.php" method="post">
 				<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
