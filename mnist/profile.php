@@ -1,5 +1,11 @@
 <?php
 session_start();
+
+// Ha a felhasználó nincs belépve
+if($_SESSION["userLoggedIn"] != true) {
+	header('Location: login.php');
+} 
+
 $server = 'localhost'; 
 $username = 'root';
 $password = '';
