@@ -3,9 +3,9 @@ session_start();
 $server = 'localhost'; 
 $username = 'root';
 $password = '';
-$database = 'adat';
+$database = 'mnist';
 $kapcsolat = mysqli_connect($server, $username, $password, $database);
-$eredmeny = $kapcsolat->prepare('SELECT jelszo, email FROM felhasznalo WHERE id = ?');
+$eredmeny = $kapcsolat->prepare('SELECT jelszo, email FROM users WHERE id = ?');
 // Account ID alapján keressük meg a felhasználó adatait.
 $eredmeny->bind_param('i', $_SESSION['userid']);
 $eredmeny->execute();
