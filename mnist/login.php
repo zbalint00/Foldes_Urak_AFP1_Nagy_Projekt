@@ -17,6 +17,7 @@
 				$_SESSION["pw"]=$_POST["jelsz"];
 				$_SESSION["email"]=$sor["email"];
 				$_SESSION["userid"] = $sor["id"];
+				$_SESSION["userLoggedIn"] = true;
 				header("location:index.php");
 			}
 		}
