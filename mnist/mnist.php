@@ -99,8 +99,8 @@
 
             <img src="Resources\Images\<?php echo getRandomImage(); ?>">
 
-            <p> <?php echo $_SESSION["jóMegoldások"] ?> </p>
-            <p> <?php echo $_SESSION["kerdesekSzama"] ?> </p>
+            <p> Helyes válaszok száma: <?php echo $_SESSION["jóMegoldások"] ?> </p>
+            <p> Hátralévő kérdések száma: <?php echo $_SESSION["kerdesekSzama"] ?> </p>
 
 
             <form>
