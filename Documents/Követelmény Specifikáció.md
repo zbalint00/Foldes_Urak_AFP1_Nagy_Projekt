@@ -126,7 +126,8 @@ az adatkezelés biztonságának garantálására hozott technikai és szervezés
 Profilkép: A felhasználó számára biztosítani kell egy profilkép feltöltési lehetőséget. Ezeket adatbázisban tároljuk.
 Profil leírás rendszere: A rendszer lényege, hogy minden felhasználó képes legyen saját magáról pár sort írni, hogy ki is ő igazából. Ezzel picit humánusabbá téve magát az egész oldalt.
 ## 6.) Követelménylista
-
+Regisztráció: A felhasznűlók számára biztosított kell legyen a könnyű regisztrálási lehetőség.
+Bejelentkezés: A regisztrált felhasználók számára biztosítani kell az egyszerű belépési lehetőséget az oldalra.
 ## 7.) Irányított és szabad szöveges riportok
 - **Kivitelező:** Kérem mondja el milyen programra lenne szüksége!
  - **Megrendelő:** Mostanában azon gondolkozatam, hogy nyitni készíteni szeretnék egy olyan saját weboldalt, ahol a felhasználónak 20 véletlenszerű ember által írt számokat kéne helyesen kitalálniük.  
