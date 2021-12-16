@@ -123,7 +123,7 @@ az adatkezelés biztonságának garantálására hozott technikai és szervezés
 -	Értékelés: Minden egyes jó válasz adásért pontot kap a felhasználó, legvégén pedig megtudja nézni, hogy a ranglistán hanyadik helyen áll.
 
 ## 5.) Igényelt üzleti folyamatok modellje:
-
+Profilkép: A felhasználó számára biztosítani kell egy profilkép feltöltési lehetőséget. Ezeket adatbázisban tároljuk.
 ## 6.) Követelménylista
 
 ## 7.) Irányított és szabad szöveges riportok
