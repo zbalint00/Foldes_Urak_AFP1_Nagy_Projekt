@@ -21,4 +21,5 @@
 | 19:47   | 7-es gomb            | Sikeres  | Az 7-es gomb lenyomásával 7 fog bekerülni a rendszerbe értékül.      |
 | 19:48   | 8-as gomb            | Sikeres  | Az 8-as gomb lenyomásával 8 fog bekerülni a rendszerbe értékül.      |
 | 19:49   | 9-es gomb            | Sikeres  | Az 9-es gomb lenyomásával 9 fog bekerülni a rendszerbe értékül.      |
+| 19:49   | Törlés               | Sikeres  | Az Törlés gomb lenyomásával ki töröljük az értéket a numpadról.      |
 | 19:50   | Kijelentkezés        | Sikeres  | A kijelentkezés menüpont megnyomására kijelentkezünk az oldalról.    |
