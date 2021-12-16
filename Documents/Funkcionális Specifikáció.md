@@ -54,6 +54,7 @@ A cél egy olyan dinamikus weboldal készítése, melyen a felhasználónak rák
 ## 7.) Használati esetek
 Az alábbi rendszert leginkább egy NEM VAGYOK ROBOT teszt kitöltése esetén lehet alkalmazni, bár igaz, hogy egy pontrendszer is be van építve így akár játékként is felfogható ami további lehetőségeket nyit meg a piac számára és további fejlesztési lehetőségek és kérdések merülhetnek fel.
 ## 8.) Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
+Minden felhasználó külön van tárolva, így mindenki a saját reális pontjait látja. Egyszerre több felhasználó is képes "játszani" az oldalon és pontokat gyűjteni.
 ## 9.) Képernyőtervek
 Úgy képzeljük el ezt a weboldalt, hogy egy egyszerű idősebb koró felhasználó is el tudjon igazodni az oldalon úgy mint akár egy már ebbe a modern világba beleszületett fiatal aki ebben nő fel, hogy hogyan is kell egy számítógépet bekapcsolni.
 ## 10.) Forgatókönyv
