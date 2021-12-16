@@ -128,6 +128,9 @@ Profil leírás rendszere: A rendszer lényege, hogy minden felhasználó képes
 ## 6.) Követelménylista
 Regisztráció: A felhasznűlók számára biztosított kell legyen a könnyű regisztrálási lehetőség.
 Bejelentkezés: A regisztrált felhasználók számára biztosítani kell az egyszerű belépési lehetőséget az oldalra.
+Jelszavak titkosítása: A felhasználók jelszavait a megfelelő titkosítás mellett kell tárolni.
+Jól látható képek: Fontos hogy mindenki olyan képeket kapjon ami jól látható nem pixeles.
+Pontrendszer: A felhasználók verseny szerűen gyűjtik a pontokat és így rangsoroljuk őket.
 ## 7.) Irányított és szabad szöveges riportok
 - **Kivitelező:** Kérem mondja el milyen programra lenne szüksége!
  - **Megrendelő:** Mostanában azon gondolkozatam, hogy nyitni készíteni szeretnék egy olyan saját weboldalt, ahol a felhasználónak 20 véletlenszerű ember által írt számokat kéne helyesen kitalálniük.  
