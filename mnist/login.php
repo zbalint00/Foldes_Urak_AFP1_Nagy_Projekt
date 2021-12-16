@@ -1,12 +1,15 @@
 <?php
-    require 'database.php';
-	mysqli_set_charset($connection,"utf8");
+    require 'connection.php';
+	session_start();
+	$db = new dbObj();
+	$connection = $db->getConnection();
+	mysqli_set_charset($connection, "utf-8");
     if (isset($_POST["belep"])) 
 	{
 		$result = mysqli_query($connection, "select * from users");
 		while ($sor = $result->fetch_assoc()) 
 		{
-			$nev = $sor["fnev"];
+			$nev = $sor["felhasznalonev"];
 			$id = $sor["id"];
 			$jelszo = $sor["jelszo"];
 			$jh =  password_hash($_POST['jelsz'], PASSWORD_DEFAULT);
@@ -17,7 +20,6 @@
 				$_SESSION["pw"]=$_POST["jelsz"];
 				$_SESSION["email"]=$sor["email"];
 				$_SESSION["userid"] = $sor["id"];
-				$_SESSION["userLoggedIn"] = true;
 				header("location:index.php");
 			}
 		}
@@ -41,12 +43,12 @@
 				<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
-				<input type="text" name="nev" placeholder="Felhasználónév" id="username" required>
+				<input type="text" name="nev" placeholder="Felhasználónév" id="username">
 				<label for="password">
 					<i class="fas fa-lock"></i>
 				</label>
-				<input type="password" name="jelsz" placeholder="Jelszó" id="password" required>
-                <input type="submit" name="belep" onclick="alert('Ne adja meg a jelszavát senkinek!')" value="Belépés">
+				<input type="password" name="jelsz" placeholder="Jelszó" id="password">
+                <input type="submit" name="belep" value="Belépés">
                 <input type="submit" name="regi" value="Regisztráció">
 			</form>
 		</div>
