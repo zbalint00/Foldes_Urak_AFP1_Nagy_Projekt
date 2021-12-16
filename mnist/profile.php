@@ -1,4 +1,6 @@
 <?php
+//PROFIL OLDAL - (Linksch Balázs)
+//require("connection.php");
 session_start();
 
 // Ha a felhasználó nincs belépve
@@ -10,8 +12,8 @@ $server = 'localhost';
 $username = 'root';
 $password = '';
 $database = 'mnist';
-$kapcsolat = mysqli_connect($server, $username, $password, $database);
-$eredmeny = $kapcsolat->prepare('SELECT jelszo, email FROM users WHERE id = ?');
+$connection = mysqli_connect($server, $username, $password, $database);
+$eredmeny = $connection->prepare('SELECT jelszo, email FROM users WHERE id = ?');
 // Account ID alapján keressük meg a felhasználó adatait.
 $eredmeny->bind_param('i', $_SESSION['userid']);
 $eredmeny->execute();
@@ -23,16 +25,17 @@ $eredmeny->close();
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Saját rofil</title>
+		<title>Saját Profil</title>
 		<link href="menuformaz.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body class="loggedin">
 		<nav class="navtop">
 			<div>
                 <h1>Felhasználó</h1>
-				<a href="profil.php"><i class="fas fa-user-circle"></i>Profil</a>
-				<a href="mnist.php"><i class="fas fa-user-circle"></i>Mnist</a>
+				<a href="profile.php"><i class="fas fa-user-circle"></i>Profil</a>
+				<a href="mnist.php"><i class="fas fa-user-circle"></i>MNIST</a>
 				<a href="ki.php"><i class="fas fa-sign-out-alt"></i>Kijelentkezés</a>
 			</div>
 		</nav>
@@ -42,7 +45,7 @@ $eredmeny->close();
 				<p>A profilod adatai:</p>
 				<table>
 					<tr>
-						<td>Felhasználóvén:</td>
+						<td>Felhasználónév:</td>
 						<td><?=$_SESSION['user']?></td>
 					</tr>
 					<tr>
