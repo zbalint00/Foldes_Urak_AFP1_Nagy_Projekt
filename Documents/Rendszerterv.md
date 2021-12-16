@@ -158,6 +158,7 @@ az adatkezelés biztonságának garantálására hozott technikai és szervezés
 
 ## 5. Funkcionális terv
 - **Felhasználó:** Képes lesz a teszt kitöltésére, majd a kitöltés végén a teszt eredményét megtekinteni.
+- Továbbá a felhasználó képes lesz saját profiljának adatai megtekintésére is!
 
 ### 5.1 Rendszerszereplők
 ### 5.2 Rendszerhasználati esetek és lefutásaik
