@@ -164,3 +164,4 @@ az adatkezelés biztonságának garantálására hozott technikai és szervezés
 Felhasználó: Joga van a profiljának megtekintésére és a játékban résztvenni.
 Admin: Tudja befolyásolni a pontok állását, felhasználókat zárolni, törölni.
 ### 5.2 Rendszerhasználati esetek és lefutásaik
+Minden felhasználó külön van tárolva, így mindenki a saját reális pontjait látja. Egyszerre több felhasználó is képes "játszani" az oldalon és pontokat gyűjteni.
