@@ -55,6 +55,7 @@ A cél egy olyan dinamikus weboldal készítése, melyen a felhasználónak rák
 Az alábbi rendszert leginkább egy NEM VAGYOK ROBOT teszt kitöltése esetén lehet alkalmazni, bár igaz, hogy egy pontrendszer is be van építve így akár játékként is felfogható ami további lehetőségeket nyit meg a piac számára és további fejlesztési lehetőségek és kérdések merülhetnek fel.
 ## 8.) Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 9.) Képernyőtervek
+Úgy képzeljük el ezt a weboldalt, hogy egy egyszerű idősebb koró felhasználó is el tudjon igazodni az oldalon úgy mint akár egy már ebbe a modern világba beleszületett fiatal aki ebben nő fel, hogy hogyan is kell egy számítógépet bekapcsolni.
 ## 10.) Forgatókönyv
 Első sorban, ha egy új felhasználó látogat el a weboldalra regisztrálnia kell annak érdekében, hogy bármit is tudjon csinálni a felületen. A sikeres regisztráció után az előjövő bejelntkezési ablakban be bírnak jelentkezni amiután egyből a főoldalon lesznek. A fő oldalon a felhasználónak rákell böknie, hogy mely számot látja kiírva a képernyőn. Ez alapján az oldal pontozza a teljesítményét, hányat sikerült eltalálnia az illetőnek, adatbázisba elmenti, a teszt végén kiírja azt. A számok egy "adatbázisból" lesznek kivágva, mindegyikük kézzel írt. A pontozás a teljesített idő alapján is szabályozva lesz.
 ## 11.) Funkció-követelmény megfeleltetés
