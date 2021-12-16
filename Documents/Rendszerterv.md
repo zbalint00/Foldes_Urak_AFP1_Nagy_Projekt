@@ -161,4 +161,6 @@ az adatkezelés biztonságának garantálására hozott technikai és szervezés
 - Továbbá a felhasználó képes lesz saját profiljának adatai megtekintésére is!
 
 ### 5.1 Rendszerszereplők
+Felhasználó: Joga van a profiljának megtekintésére és a játékban résztvenni.
+Admin: Tudja befolyásolni a pontok állását, felhasználókat zárolni, törölni.
 ### 5.2 Rendszerhasználati esetek és lefutásaik
