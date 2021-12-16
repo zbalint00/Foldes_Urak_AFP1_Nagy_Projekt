@@ -13,6 +13,8 @@
 <html>
     <head>
         <title>Főoldal</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
     <nav class="navtop">
