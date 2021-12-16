@@ -32,6 +32,7 @@ $eredmeny->close();
 			<div>
                 <h1>Felhasználó</h1>
 				<a href="profil.php"><i class="fas fa-user-circle"></i>Profil</a>
+				<a href="mnist.php"><i class="fas fa-user-circle"></i>Mnist</a>
 				<a href="ki.php"><i class="fas fa-sign-out-alt"></i>Kijelentkezés</a>
 			</div>
 		</nav>
